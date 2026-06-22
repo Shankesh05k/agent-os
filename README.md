@@ -159,21 +159,3 @@ Inbox messages are automatically injected as context on the agent's next schedul
 
 ---
 
-## Week-by-week roadmap
-
-| Week | Goal |
-|---|---|
-| **1** ✅ | Core kernel: Process Manager, Scheduler, IPC Bus, Token Budget |
-| **2** | Tool registry — agents can call Python functions; sandboxed exec |
-| **3** | Memory Manager — shared vector store agents can read/write |
-| **4** | Dashboard — live process table, token burn chart, IPC message trace |
-| **5** | Agent templates + complex demo (multi-agent research pipeline) |
-
----
-
-## Tests
-
-```bash
-python -m pytest tests/ -v
-# 20 tests, no Redis or API key needed
-```
